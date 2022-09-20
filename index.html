@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Helper</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <div class="container">
+       
+     <div class="app">
+
+        <nav class="navbar">
+            <h1 class="nav-h1">String Variation</h1>
+        </nav> 
+
+        <main class="main-container">
+
+            <div>
+                <label class="label" for="">Enter a String</label>
+                <input class="input" placeholder="Input String" id="name" autocomplete="off" type="text">
+            </div>
+
+            <table class="table" border="1">
+                <thead>
+                    <tr>
+                        <th width="200px">Variation</th>   
+                        <th width="500px">Live Result</th>    
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Number of Characters </td>
+                        <td id="answer1"></td>
+                    </tr>
+                    <tr>
+                        <td>First Characters </td>
+                        <td id="answer2"></td>
+                    </tr>
+                    <tr>
+                        <td>Last Characters </td>
+                        <td id="answer3"></td>
+                    </tr>
+                    <tr>
+                        <td>Lower Case </td>
+                        <td id="answer4"></td>
+                    </tr>
+                    <tr>
+                        <td>Upper Case </td>
+                        <td id="answer5"></td>
+                    </tr>
+                    <tr>
+                        <td>Capitalize </td>
+                        <td id="answer6"></td>
+                    </tr>
+            </table> 
+
+        </main>
+
+     </div>
+    </div>
+
+<script src="./index.js"></script>
+</body>
+</html>
